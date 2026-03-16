@@ -9,8 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -99,22 +100,28 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <div class="d-flex">
-                            <div class="nav-item dropdown me-2">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    My PlayStation
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Impostazioni</a></li>
-                                    <li><a class="dropdown-item" href="#">Notifiche</a></li>
-                                    <li><a class="dropdown-item" href="#">Esci</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <button class="btn btn-primary" type="submit">Accedi</button>
-                    </form>
+
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                My PlayStation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Impostazioni</a></li>
+                                <li><a class="dropdown-item" href="#">Notifiche</a></li>
+                                <li><a class="dropdown-item" href="#">Esci</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-2">
+                            <button class="btn btn-primary" type="button">Accedi</button>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0">
+                                <img src="./img/lens.svg" alt="lente" style="height:24px;">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
