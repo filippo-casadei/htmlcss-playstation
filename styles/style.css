@@ -69,3 +69,8 @@ body{
 .available-games {
     background-color: rgb(18, 18, 18);
 }
+
+/* specifiche sezione playstation plus */
+.playstation-plus {
+    background-color: gray;
+}
