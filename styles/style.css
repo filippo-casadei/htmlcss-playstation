@@ -98,3 +98,9 @@ body{
     top: 0;
     right: 0;
 }
+
+/* specifiche footer */
+
+.tostapane {
+    background-color: rgb(15, 15, 180);
+}
