@@ -73,9 +73,13 @@ body{
 /* specifiche sezione playstation plus */
 .playstation-plus {
     background-color: gray;
+    position: relative;
 }
 
 .playstation-plus .monthly-banner {
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
