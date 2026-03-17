@@ -22,7 +22,7 @@ body{
     width: 75px;
 }
 
-/* specifiche sezione 1: RETURNAL */
+/* specifiche sezione gioco: RETURNAL */
 .returnal-bg{
     width: 100%;
     height: 100%;
@@ -37,6 +37,28 @@ body{
 }
 
 .returnal-content{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    max-width: 400px;
+    transform: translateY(-21%);
+}
+
+/* specifiche sezione gioco: IT TAKES TWO */
+.takestwo-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.takestwo-preview {
+    position: relative;
+    height: 80vh;
+    min-height: 500px;
+}
+
+.takestwo-content {
     position: absolute;
     top: 50%;
     left: 5%;
