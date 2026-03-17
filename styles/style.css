@@ -60,8 +60,8 @@ body{
 
 .takestwo-content {
     position: absolute;
-    top: 50%;
+    top: 24%;
     left: 5%;
-    max-width: 400px;
+    max-width: 200px;
     transform: translateY(-21%);
 }
