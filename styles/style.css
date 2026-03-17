@@ -83,3 +83,18 @@ body{
     top: 0;
     right: 0;
 }
+
+/* specifiche sezione playstation now */
+
+.playstation-now {
+    background-color: rgb(16, 16, 113);
+    position: relative;
+}
+
+.playstation-now .monthly-banner {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
